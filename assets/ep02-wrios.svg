@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-label="Episode 02: WRIOS">
+<style>
+.sw{animation:sw 4.5s ease-in-out infinite}@keyframes sw{0%{transform:translateX(-200px)}55%,100%{transform:translateX(820px)}}
+.sl{animation:sl 2.2s linear infinite}@keyframes sl{from{transform:translateX(0)}to{transform:translateX(-120px)}}
+.kj{animation:kj 6s ease-in-out infinite}@keyframes kj{0%,100%{opacity:.28}50%{opacity:.5}}
+.bd{animation:bd 1.8s ease-in-out infinite}@keyframes bd{0%,100%{opacity:.75}50%{opacity:1}}
+.ul{transform-box:fill-box;transform-origin:left;animation:ul 1.1s cubic-bezier(.2,.9,.2,1) .3s backwards}@keyframes ul{from{transform:scaleX(0)}}
+</style>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B0820"/><stop offset=".65" stop-color="#140E33"/><stop offset="1" stop-color="#92400E"/></linearGradient>
+<linearGradient id="s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect width="600" height="320" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+<rect width="600" height="320" fill="url(#g)"/>
+<g class="sl" opacity=".18">
+<path d="M-120,320 L40,0" stroke="#FBBF24" stroke-width="2"/>
+<path d="M-60,320 L100,0" stroke="#FBBF24" stroke-width="3"/>
+<path d="M0,320 L160,0" stroke="#FBBF24" stroke-width="1"/>
+<path d="M60,320 L220,0" stroke="#FBBF24" stroke-width="2"/>
+<path d="M120,320 L280,0" stroke="#FBBF24" stroke-width="3"/>
+<path d="M180,320 L340,0" stroke="#FBBF24" stroke-width="1"/>
+<path d="M240,320 L400,0" stroke="#FBBF24" stroke-width="2"/>
+<path d="M300,320 L460,0" stroke="#FBBF24" stroke-width="3"/>
+<path d="M360,320 L520,0" stroke="#FBBF24" stroke-width="1"/>
+<path d="M420,320 L580,0" stroke="#FBBF24" stroke-width="2"/>
+<path d="M480,320 L640,0" stroke="#FBBF24" stroke-width="3"/>
+<path d="M540,320 L700,0" stroke="#FBBF24" stroke-width="1"/>
+<path d="M600,320 L760,0" stroke="#FBBF24" stroke-width="2"/>
+<path d="M660,320 L820,0" stroke="#FBBF24" stroke-width="3"/>
+<path d="M720,320 L880,0" stroke="#FBBF24" stroke-width="1"/>
+<path d="M780,320 L940,0" stroke="#FBBF24" stroke-width="2"/>
+<path d="M840,320 L1000,0" stroke="#FBBF24" stroke-width="3"/>
+<path d="M900,320 L1060,0" stroke="#FBBF24" stroke-width="1"/>
+</g>
+<text x="538" y="190" text-anchor="middle" font-family="'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif" font-size="66" font-weight="900" fill="#FBBF24" class="kj">証</text>
+<text x="538" y="262" text-anchor="middle" font-family="'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif" font-size="66" font-weight="900" fill="#FBBF24" class="kj">拠</text>
+<rect x="0" y="0" width="160" height="320" fill="url(#s)" class="sw" transform="skewX(-18)"/>
+<rect x="28" y="26" width="104" height="30" rx="6" fill="#FBBF24"/>
+<text x="80" y="47" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="800" fill="#0B0820">EP.02</text>
+<text x="144" y="47" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#FBBF24" letter-spacing="1">EVIDENCE OVER VIBES</text>
+<text x="28" y="112" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="900" fill="#FFFFFF">WRIOS</text>
+<rect x="30" y="126" width="90" height="4" rx="2" fill="#FBBF24" class="ul"/>
+<text x="28" y="168" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#E9E4FF">Warranty &amp; recovery OS: claim screening,</text>
+<text x="28" y="196" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#E9E4FF">policy adjudication, supplier liability</text>
+<text x="28" y="224" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#E9E4FF">and recoverable cost — every call traceable.</text>
+<rect x="28" y="258" width="462" height="36" rx="8" fill="#000" fill-opacity=".35" stroke="#FBBF24" stroke-opacity=".5"/>
+<text x="44" y="282" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#FBBF24">Enterprise SaaS · Backend · Decision Automation</text>
+</g>
+<rect x="1" y="1" width="598" height="318" rx="17" fill="none" stroke="#FBBF24" stroke-opacity=".7" stroke-width="2"/>
+</svg>

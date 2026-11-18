@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-label="Character status window for Arijit Roy">
+<style>
+.win{transform-origin:500px 300px;animation:open .9s cubic-bezier(.2,.9,.2,1) backwards}
+@keyframes open{0%{transform:scaleY(.02) scaleX(.6);opacity:0}40%{transform:scaleY(.02) scaleX(1);opacity:1}100%{transform:scale(1)}}
+.row{animation:row .5s ease backwards}
+@keyframes row{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+.bar{transform-box:fill-box;transform-origin:left;animation:bar 1.2s cubic-bezier(.2,.9,.2,1) backwards}
+@keyframes bar{from{transform:scaleX(0)}}
+.shine{animation:shine 5s ease-in-out infinite}
+@keyframes shine{0%{transform:translateX(-300px)}60%,100%{transform:translateX(1300px)}}
+.corner{animation:cr 2s ease-in-out infinite}
+@keyframes cr{0%,100%{opacity:.4}50%{opacity:1}}
+.blink{animation:bl 1.2s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E1A3A"/><stop offset="1" stop-color="#1B0F3F"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#FF6FA8"/></linearGradient>
+<linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="cl"><rect x="10" y="10" width="980" height="580" rx="16"/></clipPath>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#8B5CF6" stroke-opacity=".08"/></pattern>
+</defs>
+<g class="win">
+<rect x="10" y="10" width="980" height="580" rx="16" fill="url(#bg)"/>
+<rect x="10" y="10" width="980" height="580" rx="16" fill="url(#grid)"/>
+<g clip-path="url(#cl)"><rect x="0" y="0" width="260" height="600" fill="url(#sh)" class="shine" transform="skewX(-20)"/></g>
+<rect x="10" y="10" width="980" height="580" rx="16" fill="none" stroke="url(#edge)" stroke-width="2.5"/>
+<path d="M24,50 L24,24 L50,24" fill="none" stroke="#67E8F9" stroke-width="3" class="corner"/>
+<path d="M976,50 L976,24 L950,24" fill="none" stroke="#67E8F9" stroke-width="3" class="corner"/>
+<path d="M24,550 L24,576 L50,576" fill="none" stroke="#67E8F9" stroke-width="3" class="corner"/>
+<path d="M976,550 L976,576 L950,576" fill="none" stroke="#67E8F9" stroke-width="3" class="corner"/>
+<text x="500" y="62" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="26" font-weight="700" fill="#E0F2FE" letter-spacing="10">【 STATUS 】</text>
+<text x="500" y="88" text-anchor="middle" font-family="'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif" font-size="15" fill="#67E8F9" letter-spacing="4">ステータス · PLAYER PROFILE</text>
+<line x1="60" y1="104" x2="940" y2="104" stroke="url(#edge)" stroke-opacity=".6"/>
+<g class="row" style="animation-delay:0.80s"><text x="60" y="140" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#67E8F9" letter-spacing="2">NAME</text><text x="170" y="140" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#F5F3FF">Arijit Roy</text></g>
+<g class="row" style="animation-delay:0.92s"><text x="60" y="174" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#67E8F9" letter-spacing="2">CLASS</text><text x="170" y="174" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#F5F3FF">Full-Stack × GenAI Engineer</text></g>
+<g class="row" style="animation-delay:1.04s"><text x="60" y="208" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#67E8F9" letter-spacing="2">ORIGIN</text><text x="170" y="208" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#F5F3FF">LNMIIT Jaipur · ECE undergrad</text></g>
+<g class="row" style="animation-delay:1.16s"><text x="60" y="242" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#67E8F9" letter-spacing="2">GUILD</text><text x="170" y="242" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#F5F3FF">Cipher LNMIIT · Org &amp; Sponsorship Lead</text></g>
+<g class="row" style="animation-delay:1.28s"><text x="60" y="276" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#67E8F9" letter-spacing="2">QUEST</text><text x="170" y="276" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#F5F3FF">SWE / Backend / AI-Infra internship</text></g>
+<text x="640" y="140" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#FBBF24" letter-spacing="2">TITLES EARNED</text>
+<g class="row" style="animation-delay:1.20s"><path d="M648,158 l7,7 -7,7 -7,-7z" fill="#FBBF24"/><text x="664" y="171" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#E9D5FF">2nd Place · LNMHacks 8.0 (x402)</text></g>
+<g class="row" style="animation-delay:1.35s"><path d="M648,188 l7,7 -7,7 -7,-7z" fill="#FF6FA8"/><text x="664" y="201" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#E9D5FF">Uniswap Hook Incubator 6 · Graduate</text></g>
+<g class="row" style="animation-delay:1.50s"><path d="M648,218 l7,7 -7,7 -7,-7z" fill="#22D3EE"/><text x="664" y="231" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#E9D5FF">Meta-PyTorch OpenEnv Hackathon</text></g>
+<g class="row" style="animation-delay:1.65s"><path d="M648,248 l7,7 -7,7 -7,-7z" fill="#A78BFA"/><text x="664" y="261" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16.5" fill="#E9D5FF">Tata Steel · −20% manual logging</text></g>
+<line x1="60" y1="320" x2="940" y2="320" stroke="url(#edge)" stroke-opacity=".35" stroke-dasharray="6 6"/>
+<text x="60" y="354" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="17" fill="#67E8F9" letter-spacing="2">SKILL TREE</text>
+<text x="940" y="354" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#A78BFA">techniques unlocked</text>
+<g class="row" style="animation-delay:1.60s"><rect x="60" y="366" width="6" height="28" rx="3" fill="#A78BFA"/><text x="80" y="386" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#F5F3FF">Multi-Agent Orchestration</text><text x="370" y="386" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#A78BFA">LangChain · LangGraph · RAG · FAISS</text></g>
+<rect x="80" y="394" width="860" height="2" fill="#A78BFA" opacity=".35" class="bar" style="animation-delay:1.80s"/>
+<g class="row" style="animation-delay:1.75s"><rect x="60" y="406" width="6" height="28" rx="3" fill="#22D3EE"/><text x="80" y="426" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#F5F3FF">Backend Engineering</text><text x="370" y="426" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#22D3EE">Python · FastAPI · Node.js · Postgres · Mongo · Redis</text></g>
+<rect x="80" y="434" width="860" height="2" fill="#22D3EE" opacity=".35" class="bar" style="animation-delay:1.95s"/>
+<g class="row" style="animation-delay:1.90s"><rect x="60" y="446" width="6" height="28" rx="3" fill="#FBBF24"/><text x="80" y="466" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#F5F3FF">Cloud &amp; DevOps</text><text x="370" y="466" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#FBBF24">AWS · GCP · Docker · Terraform · GitHub Actions</text></g>
+<rect x="80" y="474" width="860" height="2" fill="#FBBF24" opacity=".35" class="bar" style="animation-delay:2.10s"/>
+<g class="row" style="animation-delay:2.05s"><rect x="60" y="486" width="6" height="28" rx="3" fill="#6EE7B7"/><text x="80" y="506" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#F5F3FF">Observability</text><text x="370" y="506" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#6EE7B7">OpenTelemetry · Prometheus · Grafana · Loki · Tempo</text></g>
+<rect x="80" y="514" width="860" height="2" fill="#6EE7B7" opacity=".35" class="bar" style="animation-delay:2.25s"/>
+<g class="row" style="animation-delay:2.20s"><rect x="60" y="526" width="6" height="28" rx="3" fill="#FF6FA8"/><text x="80" y="546" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#F5F3FF">Smart Contracts</text><text x="370" y="546" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#FF6FA8">Solidity · Foundry · EVM · Uniswap v4 Hooks</text></g>
+<rect x="80" y="554" width="860" height="2" fill="#FF6FA8" opacity=".35" class="bar" style="animation-delay:2.40s"/>
+<text x="940" y="576" text-anchor="end" font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="14" fill="#67E8F9">▼ scroll for episodes<tspan class="blink">_</tspan></text>
+</g></svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="56" viewBox="0 0 1200 56">
+<style>
+.tw{animation:tw 4s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.25}50%{opacity:1}}
+.fall{animation:fall 12s linear infinite}
+@keyframes fall{from{transform:translate(0,0)}to{transform:translate(-160px,90px)}}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 4s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.run{animation:run 3.5s linear infinite}@keyframes run{from{transform:translateX(-300px)}to{transform:translateX(1300px)}}</style>
+<defs><linearGradient id="l" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient>
+<linearGradient id="r" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF6FA8" stop-opacity="0"/><stop offset="1" stop-color="#FF6FA8"/></linearGradient></defs>
+<rect x="0" y="27" width="1200" height="2" fill="url(#l)"/>
+<rect x="0" y="25" width="220" height="6" rx="3" fill="url(#r)" class="run"/>
+<g transform="translate(600,28)"><path d="M0,-12 L4,-4 L12,0 L4,4 L0,12 L-4,4 L-12,0 L-4,-4Z" fill="#FBBF24"/></g>
+<g transform="translate(251,-24)"><g class="fall" style="animation-duration:13.8s;animation-delay:-8.8s"><g transform="scale(0.91)"><path d="M0,0 C5,-7 14,-7 15,0 C14,7 5,8 0,0 Z" fill="#FFB3D1" opacity="0.64" class="spin" style="animation-duration:4.5s"/></g></g></g>
+<g transform="translate(687,-24)"><g class="fall" style="animation-duration:10.7s;animation-delay:-0.0s"><g transform="scale(0.84)"><path d="M0,0 C5,-7 14,-7 15,0 C14,7 5,8 0,0 Z" fill="#FFB3D1" opacity="0.78" class="spin" style="animation-duration:2.7s"/></g></g></g>
+<g transform="translate(1220,-24)"><g class="fall" style="animation-duration:13.9s;animation-delay:-6.1s"><g transform="scale(1.25)"><path d="M0,0 C5,-7 14,-7 15,0 C14,7 5,8 0,0 Z" fill="#FFC9DE" opacity="0.86" class="spin" style="animation-duration:3.5s"/></g></g></g>
+<g transform="translate(84,-24)"><g class="fall" style="animation-duration:11.3s;animation-delay:-5.6s"><g transform="scale(0.68)"><path d="M0,0 C5,-7 14,-7 15,0 C14,7 5,8 0,0 Z" fill="#FFB3D1" opacity="0.93" class="spin" style="animation-duration:3.4s"/></g></g></g>
+<g transform="translate(989,-24)"><g class="fall" style="animation-duration:9.6s;animation-delay:-7.8s"><g transform="scale(0.61)"><path d="M0,0 C5,-7 14,-7 15,0 C14,7 5,8 0,0 Z" fill="#FFC9DE" opacity="0.61" class="spin" style="animation-duration:4.3s"/></g></g></g>
+<g transform="translate(660,-24)"><g class="fall" style="animation-duration:10.3s;animation-delay:-0.4s"><g transform="scale(1.16)"><path d="M0,0 C5,-7 14,-7 15,0 C14,7 5,8 0,0 Z" fill="#FFB3D1" opacity="0.64" class="spin" style="animation-duration:4.5s"/></g></g></g>
+<g transform="translate(902,-24)"><g class="fall" style="animation-duration:14.6s;animation-delay:-9.6s"><g transform="scale(1.22)"><path d="M0,0 C5,-7 14,-7 15,0 C14,7 5,8 0,0 Z" fill="#FF8DBA" opacity="0.91" class="spin" style="animation-duration:5.0s"/></g></g></g>
+<g transform="translate(197,-24)"><g class="fall" style="animation-duration:12.3s;animation-delay:-10.2s"><g transform="scale(0.73)"><path d="M0,0 C5,-7 14,-7 15,0 C14,7 5,8 0,0 Z" fill="#FFC9DE" opacity="0.92" class="spin" style="animation-duration:4.7s"/></g></g></g>
+<g transform="translate(414,-24)"><g class="fall" style="animation-duration:15.7s;animation-delay:-7.9s"><g transform="scale(0.81)"><path d="M0,0 C5,-7 14,-7 15,0 C14,7 5,8 0,0 Z" fill="#FF8DBA" opacity="0.74" class="spin" style="animation-duration:3.2s"/></g></g></g>
+</svg>
